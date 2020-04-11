@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using Northwind.BusinessLayer.Abstract;
 using Northwind.EntitiesLayer.Concrete;
 using Northwind.DataAccessLayer.Abstract;
-
+using Northwind.Core.Utilies.Results;
+using Northwind.BusinessLayer.Constants;
 namespace Northwind.BusinessLayer.Concrete
 {
     public class ProductManager : IProductService

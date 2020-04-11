@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Northwind.EntitiesLayer\Northwind.EntitiesLayer.csproj" />
     <ProjectReference Include="..\Northwind.DataAccessLayer\Northwind.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Northwind.Core\Northwind.Core.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

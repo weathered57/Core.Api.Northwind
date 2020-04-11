@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Northwind.EntitiesLayer.Concrete;
-
+using Northwind.Core.Utilies.Results;
 namespace Northwind.BusinessLayer.Abstract
 {
     public interface IProductService
