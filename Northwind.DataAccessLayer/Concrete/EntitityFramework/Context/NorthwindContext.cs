@@ -1,7 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Northwind.EntitiesLayer.Concrete;
+
 namespace Northwind.DataAccessLayer.Concrete.EntitityFramework.Context
 {
-    public class NorthwindContext
-    {
+  
         public class NorthwindContext : DbContext
     {
      
@@ -20,5 +22,5 @@ namespace Northwind.DataAccessLayer.Concrete.EntitityFramework.Context
             
         }
     }
-    }
+    
 }
