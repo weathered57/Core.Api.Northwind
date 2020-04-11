@@ -1,6 +1,7 @@
+using Northwind.Core.Entities.Concrete;
 namespace Northwind.EntitiesLayer.Concrete
 {
-    public class Product
+    public class Product : IEntity
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
