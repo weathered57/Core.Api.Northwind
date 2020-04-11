@@ -1,4 +1,4 @@
-using Northwind.Core.Entities.Concrete;
+using Northwind.Core.Entities;
 namespace Northwind.EntitiesLayer.Concrete
 {
     public class Product : IEntity

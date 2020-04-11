@@ -1,4 +1,4 @@
-namespace Northwind.Core.Entities.Concrete
+namespace Northwind.Core.Entities
 {
     public interface IEntity
     {
