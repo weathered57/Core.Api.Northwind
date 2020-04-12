@@ -1,0 +1,14 @@
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/bin/Debug/netstandard2.0/Northwind.DataAccessLayer.deps.json
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/bin/Debug/netstandard2.0/Northwind.DataAccessLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/bin/Debug/netstandard2.0/Northwind.DataAccessLayer.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/bin/Debug/netstandard2.0/Northwind.Core.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/bin/Debug/netstandard2.0/Northwind.Core.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/obj/Debug/netstandard2.0/Northwind.DataAccessLayer.csprojAssemblyReference.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/obj/Debug/netstandard2.0/Northwind.DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/obj/Debug/netstandard2.0/Northwind.DataAccessLayer.AssemblyInfoInputs.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/obj/Debug/netstandard2.0/Northwind.DataAccessLayer.AssemblyInfo.cs
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/obj/Debug/netstandard2.0/Northwind.DataAccessLayer.csproj.CopyComplete
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/obj/Debug/netstandard2.0/Northwind.DataAccessLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.DataAccessLayer/obj/Debug/netstandard2.0/Northwind.DataAccessLayer.pdb

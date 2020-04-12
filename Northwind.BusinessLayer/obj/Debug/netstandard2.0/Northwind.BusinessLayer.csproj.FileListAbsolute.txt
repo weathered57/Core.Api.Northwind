@@ -1,0 +1,16 @@
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.BusinessLayer.deps.json
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.BusinessLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.BusinessLayer.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.Core.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.DataAccessLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.DataAccessLayer.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/bin/Debug/netstandard2.0/Northwind.Core.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/obj/Debug/netstandard2.0/Northwind.BusinessLayer.csprojAssemblyReference.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/obj/Debug/netstandard2.0/Northwind.BusinessLayer.csproj.CoreCompileInputs.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/obj/Debug/netstandard2.0/Northwind.BusinessLayer.AssemblyInfoInputs.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/obj/Debug/netstandard2.0/Northwind.BusinessLayer.AssemblyInfo.cs
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/obj/Debug/netstandard2.0/Northwind.BusinessLayer.csproj.CopyComplete
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/obj/Debug/netstandard2.0/Northwind.BusinessLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/obj/Debug/netstandard2.0/Northwind.BusinessLayer.pdb

@@ -1,0 +1,12 @@
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.deps.json
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/bin/Debug/netstandard2.0/Northwind.Core.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/bin/Debug/netstandard2.0/Northwind.Core.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/obj/Debug/netstandard2.0/Northwind.EntitiesLayer.csprojAssemblyReference.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/obj/Debug/netstandard2.0/Northwind.EntitiesLayer.csproj.CoreCompileInputs.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/obj/Debug/netstandard2.0/Northwind.EntitiesLayer.AssemblyInfoInputs.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/obj/Debug/netstandard2.0/Northwind.EntitiesLayer.AssemblyInfo.cs
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/obj/Debug/netstandard2.0/Northwind.EntitiesLayer.csproj.CopyComplete
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/obj/Debug/netstandard2.0/Northwind.EntitiesLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/obj/Debug/netstandard2.0/Northwind.EntitiesLayer.pdb
