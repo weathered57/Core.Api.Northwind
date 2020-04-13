@@ -30,7 +30,7 @@ namespace Northwind.Api.Controllers
             return BadRequest(result.Message);
         }
 
-        [HttpGet("GetListByCategory")]
+        [HttpGet("GetListByCategory/{categoryId}")]
         public IActionResult GetListByCategory(int categoryId)
         {
 
@@ -42,7 +42,7 @@ namespace Northwind.Api.Controllers
             return BadRequest(result.Message);
         }
 
-        [HttpGet("GetById")]
+        [HttpGet("GetById/{productId}")]
         public IActionResult GetById(int productId)
         {
 
