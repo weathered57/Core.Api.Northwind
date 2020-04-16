@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Northwind.EntitiesLayer.Concrete;
+using Northwind.Core.Entities.Concrete;
 
 namespace Northwind.DataAccessLayer.Concrete.EntitityFramework.Context
 {
@@ -14,11 +15,17 @@ namespace Northwind.DataAccessLayer.Concrete.EntitityFramework.Context
      
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>().ToTable("Products");
+            modelBuilder.Entity<User>().ToTable("Users");
+            modelBuilder.Entity<OperationClaim>().ToTable("OperationClaims");
+            modelBuilder.Entity<UserOperationClaim>().ToTable("UserOperationClaims");
             
         }
     }
