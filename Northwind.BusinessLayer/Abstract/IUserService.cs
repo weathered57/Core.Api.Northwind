@@ -1,4 +1,5 @@
-using Northwind.Core.Entities.Concrete;
+using Northwind.EntitiesLayer.Concrete;
+using Northwind.EntitiesLayer.Dtos;
 using System.Collections.Generic;
 namespace Northwind.BusinessLayer.Abstract
 {

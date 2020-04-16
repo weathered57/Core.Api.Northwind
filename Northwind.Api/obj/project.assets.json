@@ -1295,7 +1295,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.3"
+          "Microsoft.EntityFrameworkCore": "3.1.3",
+          "Northwind.EntitiesLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Northwind.Core.dll": {}
@@ -1310,6 +1311,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Northwind.Core": "1.0.0",
           "Northwind.EntitiesLayer": "1.0.0"
         },
         "compile": {
@@ -1322,9 +1324,6 @@
       "Northwind.EntitiesLayer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Northwind.Core": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Northwind.EntitiesLayer.dll": {}
         },

@@ -1,4 +1,4 @@
-namespace Northwind.Core.Entities
+namespace Northwind.EntitiesLayer.Absract
 {
     public interface IDto
     {

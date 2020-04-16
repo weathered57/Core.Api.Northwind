@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Northwind.Core.Entities;
-
+using Northwind.EntitiesLayer.Absract;
 namespace Northwind.Core.DataAccess
 {
     public interface IEntityRepository<T>  where T: class,IEntity,new()

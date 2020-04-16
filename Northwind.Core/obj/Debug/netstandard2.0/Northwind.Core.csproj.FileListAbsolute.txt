@@ -7,3 +7,6 @@
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/obj/Debug/netstandard2.0/Northwind.Core.AssemblyInfo.cs
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/obj/Debug/netstandard2.0/Northwind.Core.dll
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/obj/Debug/netstandard2.0/Northwind.Core.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/bin/Debug/netstandard2.0/Northwind.EntitiesLayer.pdb
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/obj/Debug/netstandard2.0/Northwind.Core.csproj.CopyComplete

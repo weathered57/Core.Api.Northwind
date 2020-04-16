@@ -307,6 +307,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "Northwind.EntitiesLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Northwind.EntitiesLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.EntitiesLayer.dll": {}
+        }
       }
     }
   },
@@ -1014,12 +1024,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Northwind.EntitiesLayer/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj",
+      "msbuildProject": "../Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.EntityFrameworkCore >= 3.1.3",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Northwind.EntitiesLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1045,7 +1061,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj": {
+              "projectPath": "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

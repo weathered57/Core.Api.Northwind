@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jBSsM2+tJifZ0Fotwi+s+FidMQSj8mxyGT0Kx2GiM/5Jfv6WEGjx9kmqOxTNYrGqpJ8/Z7zBBGJivO/OeBS7rw==",
+  "dgSpecHash": "mZrnAeef0Ng0eBDYdkYJoyVfCwYig6YF7fvXPLF8L9Bz50bLmyUHm8MGgiVL/Z9iQGnTmugbXdzn4BDbwywC2A==",
   "success": true,
   "projectFilePath": "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.BusinessLayer/Northwind.BusinessLayer.csproj",
   "expectedPackageFiles": [

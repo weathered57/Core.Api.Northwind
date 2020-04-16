@@ -1,4 +1,5 @@
-namespace Northwind.Core.Entities.Concrete
+using Northwind.EntitiesLayer.Absract;
+namespace Northwind.EntitiesLayer.Dtos
 {
     public class UserForOperationClaimDto : IDto
     {

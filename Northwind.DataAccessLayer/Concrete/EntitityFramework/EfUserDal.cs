@@ -1,5 +1,6 @@
 using Northwind.Core.DataAccess.EntitiyFramework;
-using Northwind.Core.Entities.Concrete;
+using Northwind.EntitiesLayer.Concrete;
+using Northwind.EntitiesLayer.Dtos;
 using Northwind.DataAccessLayer.Concrete.EntitityFramework.Context;
 using Northwind.DataAccessLayer.Abstract;
 using System.Linq;

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Northwind.EntitiesLayer\Northwind.EntitiesLayer.csproj" />
+    <ProjectReference Include="..\Northwind.Core\Northwind.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

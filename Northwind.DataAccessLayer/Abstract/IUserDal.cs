@@ -1,6 +1,8 @@
-using Northwind.Core.DataAccess;
-using Northwind.Core.Entities.Concrete;
+using Northwind.EntitiesLayer.Concrete;
+using Northwind.EntitiesLayer.Dtos;
 using System.Collections.Generic;
+using Northwind.Core.DataAccess;
+
 
 namespace Northwind.DataAccessLayer.Abstract
 {

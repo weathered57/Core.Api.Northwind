@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Northwind.EntitiesLayer.Concrete;
-using Northwind.Core.Entities.Concrete;
 
 namespace Northwind.DataAccessLayer.Concrete.EntitityFramework.Context
 {

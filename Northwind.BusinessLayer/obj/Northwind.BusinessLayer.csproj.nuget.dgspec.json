@@ -91,7 +91,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj": {
+                "projectPath": "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -149,6 +153,9 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
+              "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/Northwind.Core.csproj": {
+                "projectPath": "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/Northwind.Core.csproj"
+              },
               "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj": {
                 "projectPath": "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.EntitiesLayer/Northwind.EntitiesLayer.csproj"
               }
@@ -213,11 +220,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/Northwind.Core.csproj": {
-                "projectPath": "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/Northwind.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
