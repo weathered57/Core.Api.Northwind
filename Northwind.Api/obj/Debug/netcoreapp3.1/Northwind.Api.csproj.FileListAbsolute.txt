@@ -58,3 +58,7 @@
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/obj/Debug/netcoreapp3.1/Northwind.Api.dll
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/obj/Debug/netcoreapp3.1/Northwind.Api.pdb
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/obj/Debug/netcoreapp3.1/Northwind.Api.genruntimeconfig.cache
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
