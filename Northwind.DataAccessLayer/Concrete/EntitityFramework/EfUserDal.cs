@@ -11,8 +11,9 @@ namespace Northwind.DataAccessLayer.Concrete.EntitityFramework
     {
         public List<UserForOperationClaimDto> GetClaims(User user)
         {
-            var context = new NorthwindContext();
-            var result = from oc in context.OperationClaims
+             using (var context = new NorthwindContext())
+            {
+           var result = from oc in context.OperationClaims
                          join uoc in context.UserOperationClaims
                          on oc.Id equals uoc.OpearationClaimId
                          where uoc.UserId == user.Id
@@ -21,7 +22,10 @@ namespace Northwind.DataAccessLayer.Concrete.EntitityFramework
                              Id = oc.Id,
                              Name = oc.Name
                          };
-            return result.ToList();
+                         return result.ToList();
+            }
+           
+            
         }
     }
 }
