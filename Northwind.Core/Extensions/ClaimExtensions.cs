@@ -4,8 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 namespace Northwind.Core.Extensions
 {
-    public class ClaimExtensions
-    {
+   
         public static class ClaimExtensions
     {
         public static void AddEmail(this ICollection<Claim> claims,string email)
@@ -30,5 +29,5 @@ namespace Northwind.Core.Extensions
         }
 
     }
-    }
+    
 }
