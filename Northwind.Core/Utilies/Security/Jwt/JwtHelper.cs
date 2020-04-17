@@ -59,7 +59,7 @@ namespace Northwind.Core.Utilies.Security.Jwt
                 var claims = new List<Claim>();
                 claims.AddNameIdentifier(user.Id.ToString());
                 claims.AddEmail(user.Email);
-                claims.AddName($"{user.Firstname} {user.LastName}");
+                claims.AddName($"{user.Firstname} {user.Lastname}");
                 claims.AddRoles(operationClaims.Select(c => c.Name).ToArray());
                 return claims;
             }
