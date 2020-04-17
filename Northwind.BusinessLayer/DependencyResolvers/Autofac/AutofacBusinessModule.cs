@@ -19,6 +19,8 @@ namespace Northwind.BusinessLayer.DependencyResolvers.Autofac
 
              builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<EfUserDal>().As<IUserDal>();         
+
+             builder.RegisterType<AuthManager>().As<IAuthService>();
         }
     }
 }
