@@ -62,3 +62,7 @@
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
