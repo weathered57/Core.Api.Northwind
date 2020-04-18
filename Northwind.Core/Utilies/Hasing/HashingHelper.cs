@@ -15,7 +15,7 @@ namespace Northwind.Core.Utilies.Hasing
 
         public static bool VeriftyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
         {
-            using (var hmac = new System.Security.Cryptography.HMACSHA512())
+            using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
             {
                 var computeHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
 

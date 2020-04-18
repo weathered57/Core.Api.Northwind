@@ -62,7 +62,9 @@ namespace Northwind.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
             app.UseAuthentication();
+            
             app.UseAuthorization();
            
 

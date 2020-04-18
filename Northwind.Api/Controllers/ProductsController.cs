@@ -20,7 +20,7 @@ namespace Northwind.Api.Controllers
         }
         
         [HttpGet("GetAll")]
-        [Authorize(Roles = "Admin")]
+       [Authorize()]
         public IActionResult GetList()
         {
 

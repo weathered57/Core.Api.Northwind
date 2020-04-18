@@ -34,7 +34,7 @@ namespace Northwind.BusinessLayer.Concrete
 
             }
 
-            if(HashingHelper.VeriftyPasswordHash(userForLoginDto.Password,userToCheck.PasswordHash,userToCheck.PasswordSalt))
+            if(!HashingHelper.VeriftyPasswordHash(userForLoginDto.Password,userToCheck.PasswordHash,userToCheck.PasswordSalt))
             {
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }
