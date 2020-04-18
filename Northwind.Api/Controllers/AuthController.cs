@@ -33,7 +33,7 @@ namespace Northwind.Api.Controllers
         {
             return Ok(result.Data);
         }
-        return Ok(result.Data);
+        return BadRequest(result.Message);
        }
        [HttpPost("register")]
        public ActionResult Register(UserForRegisterDto userForRegisterDto)

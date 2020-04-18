@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Northwind.BusinessLayer.Abstract;
 using Northwind.Core.Utilies.Results;
@@ -19,6 +20,7 @@ namespace Northwind.Api.Controllers
         }
         
         [HttpGet("GetAll")]
+        [Authorize(Roles = "Admin")]
         public IActionResult GetList()
         {
 
