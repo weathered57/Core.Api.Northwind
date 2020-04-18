@@ -13,9 +13,9 @@ namespace Northwind.DataAccessLayer.Concrete.EntitityFramework
         {
              using (var context = new NorthwindContext())
             {
-           var result = from oc in context.OperationClaims
+             var result =from oc in context.OperationClaims
                          join uoc in context.UserOperationClaims
-                         on oc.Id equals uoc.OpearationClaimId
+                         on oc.Id equals uoc.OperationClaimId
                          where uoc.UserId == user.Id
                          select new UserForOperationClaimDto
                          {

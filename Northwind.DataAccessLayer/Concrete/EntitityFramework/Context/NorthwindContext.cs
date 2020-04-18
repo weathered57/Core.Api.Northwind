@@ -23,7 +23,7 @@ namespace Northwind.DataAccessLayer.Concrete.EntitityFramework.Context
         {
             modelBuilder.Entity<Product>().ToTable("Products");
             modelBuilder.Entity<User>().ToTable("Users");
-            modelBuilder.Entity<OperationClaim>().ToTable("OperationClaims");
+            modelBuilder.Entity<OperationClaim>().ToTable("OperationClaims");         
             modelBuilder.Entity<UserOperationClaim>().ToTable("UserOperationClaims");
             
         }

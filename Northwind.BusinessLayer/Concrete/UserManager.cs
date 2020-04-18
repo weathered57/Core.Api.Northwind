@@ -16,7 +16,7 @@ namespace Northwind.BusinessLayer.Concrete
 
         public void Add(User user)
         {
-             _userDal.GetClaims(user);
+             _userDal.Add(user);
         }
 
         public User GetByMail(string email)
