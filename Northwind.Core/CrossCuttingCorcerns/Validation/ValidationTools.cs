@@ -1,0 +1,16 @@
+using FluentValidation;
+
+namespace Northwind.Core.CrossCuttingCorcerns.Validation
+{
+    public class ValidationTools
+    {
+         public static void FluentValidate(IValidator validator,object entity)
+        {
+            var result = validator.Validate(entity);
+            if(result.Errors.Count > 0)
+            {
+                throw new ValidationException(result.Errors);
+            }
+        }
+    }
+}
