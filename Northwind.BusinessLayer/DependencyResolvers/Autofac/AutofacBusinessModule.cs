@@ -5,6 +5,9 @@ using Northwind.DataAccessLayer.Concrete.EntitityFramework;
 using Northwind.DataAccessLayer.Abstract;
 using Northwind.Core.Utilies.Security;
 using Northwind.Core.Utilies.Security.Jwt;
+using Autofac.Extras.DynamicProxy;
+using Northwind.Core.Utilies.Interceptors;
+using Castle.DynamicProxy;
 namespace Northwind.BusinessLayer.DependencyResolvers.Autofac
 {
   public class AutofacBusinessModule : Module
@@ -25,8 +28,10 @@ namespace Northwind.BusinessLayer.DependencyResolvers.Autofac
              builder.RegisterType<JwtHelper>().As<ITokenHelper>();
              
              var assembly=System.Reflection.Assembly.GetExecutingAssembly();
-             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
-             .EnableInterfaceInterceptors
+             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces().EnableInterfaceInterceptors(new ProxyGenerationOptions()
+             {
+               Selector= new AspectInterceptorSelector()
+             }).SingleInstance();
         }
     }
 }

@@ -1,4 +1,4 @@
-using Castle.Core.Interceptor;
+using Castle.DynamicProxy;
 namespace Northwind.Core.Utilies.Interceptors
 {
     public abstract class MethodInterception : MethodInterceptionBaseAttribute

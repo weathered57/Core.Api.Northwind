@@ -1,5 +1,5 @@
 using System;
-using Castle.Core.Interceptor;
+using Castle.DynamicProxy;
 namespace Northwind.Core.Utilies.Interceptors
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method ,AllowMultiple=true,Inherited=true)]

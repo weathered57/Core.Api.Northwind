@@ -1,5 +1,5 @@
 using Northwind.Core.Utilies.Interceptors;
-using Castle.Core.Interceptor;
+using Castle.DynamicProxy;
 using FluentValidation;
 using System;
 using Northwind.Core.Utilies.Messages;

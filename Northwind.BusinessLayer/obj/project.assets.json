@@ -62,18 +62,6 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
-      "Castle.DynamicProxy/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "[1.2.0]"
-        },
-        "compile": {
-          "lib/Castle.DynamicProxy2.dll": {}
-        },
-        "runtime": {
-          "lib/Castle.DynamicProxy2.dll": {}
-        }
-      },
       "FluentValidation/8.6.2": {
         "type": "package",
         "dependencies": {
@@ -2966,7 +2954,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Castle.DynamicProxy": "2.2.0",
+          "Autofac.Extras.DynamicProxy": "5.0.0",
           "FluentValidation.AspNetCore": "8.6.2",
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Northwind.EntitiesLayer": "1.0.0",
@@ -3089,18 +3077,6 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
-      ]
-    },
-    "Castle.DynamicProxy/2.2.0": {
-      "sha512": "3eiJiPYF7wK0CmHn47d56kbJLfvTGfLZ8D5G1dLLRbCo8h28gn6qkKTxFk/65FDz9zeUqWWmpZ3SAwhbpOr1sw==",
-      "type": "package",
-      "path": "castle.dynamicproxy/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "castle.dynamicproxy.2.2.0.nupkg.sha512",
-        "castle.dynamicproxy.nuspec",
-        "lib/Castle.DynamicProxy2.dll"
       ]
     },
     "FluentValidation/8.6.2": {
@@ -9249,26 +9225,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Castle.DynamicProxy 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Castle.DynamicProxy",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Castle.Core. Install/reference Castle.Core 4.4.0 directly to project Northwind.BusinessLayer to resolve this issue. \n Northwind.BusinessLayer -> Autofac.Extras.DynamicProxy 5.0.0 -> Castle.Core (>= 4.4.0) \n Northwind.BusinessLayer -> Northwind.Core -> Castle.DynamicProxy 2.2.0 -> Castle.Core (= 1.2.0).",
-      "libraryId": "Castle.Core",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }
