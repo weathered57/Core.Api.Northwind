@@ -9,7 +9,7 @@ namespace Northwind.Core.Utilies.Interceptors
 
         public virtual void Intercept(IInvocation invocation)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
