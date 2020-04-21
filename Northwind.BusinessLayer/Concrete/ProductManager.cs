@@ -5,6 +5,8 @@ using Northwind.EntitiesLayer.Concrete;
 using Northwind.DataAccessLayer.Abstract;
 using Northwind.Core.Utilies.Results;
 using Northwind.BusinessLayer.Constants;
+using Northwind.BusinessLayer.ValidationRules.FluentValidation;
+using Northwind.Core.Aspects.Autofac;
 namespace Northwind.BusinessLayer.Concrete
 {
     public class ProductManager : IProductService
@@ -16,6 +18,7 @@ namespace Northwind.BusinessLayer.Concrete
             _productDal = productDal;
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
             _productDal.Add(product);
