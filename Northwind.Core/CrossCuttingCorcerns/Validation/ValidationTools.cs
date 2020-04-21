@@ -4,7 +4,7 @@ namespace Northwind.Core.CrossCuttingCorcerns.Validation
 {
     public class ValidationTools
     {
-         public static void FluentValidate(IValidator validator,object entity)
+         public static void Validate(IValidator validator,object entity)
         {
             var result = validator.Validate(entity);
             if(result.Errors.Count > 0)
