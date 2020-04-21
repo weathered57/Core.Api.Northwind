@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "AAGcC+rTfUOwd5ZjgdlnlWz5NL0AJTTNf15JtNkx50bJ7oMm25rMLCeyc2T9q0buK7WxhI9eTd+iPrH0pvk0hg==",
+  "dgSpecHash": "Ygn6zYS9889eDQhQQs5RiTBzyHS81p12pEBxOGE6AYsunYJSg2639awr7T/OXnGN4CYNToEVt4z/JndmKgpkWg==",
   "success": true,
   "projectFilePath": "/Users/anilcan/Projects/Asp.Net.Core/Core.Api.Northwind/Northwind.Core/Northwind.Core.csproj",
   "expectedPackageFiles": [
-    "/Users/anilcan/.nuget/packages/castle.core/1.2.0/castle.core.1.2.0.nupkg.sha512",
-    "/Users/anilcan/.nuget/packages/castle.dynamicproxy/2.2.0/castle.dynamicproxy.2.2.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/autofac/5.1.0/autofac.5.1.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/autofac.extras.dynamicproxy/5.0.0/autofac.extras.dynamicproxy.5.0.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/fluentvalidation.aspnetcore/8.6.2/fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/fluentvalidation.dependencyinjectionextensions/8.6.2/fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
-    "/Users/anilcan/.nuget/packages/log4net/1.2.10/log4net.1.2.10.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/microsoft.aspnetcore.antiforgery/2.1.0/microsoft.aspnetcore.antiforgery.2.1.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.1.0/microsoft.aspnetcore.authentication.abstractions.2.1.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/microsoft.aspnetcore.authentication.core/2.1.0/microsoft.aspnetcore.authentication.core.2.1.0.nupkg.sha512",
@@ -91,7 +91,6 @@
     "/Users/anilcan/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/newtonsoft.json.bson/1.0.1/newtonsoft.json.bson.1.0.1.nupkg.sha512",
-    "/Users/anilcan/.nuget/packages/nlog/1.0.0.505/nlog.1.0.0.505.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -113,17 +112,24 @@
     "/Users/anilcan/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.collections.immutable/1.7.0/system.collections.immutable.1.7.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/system.collections.specialized/4.3.0/system.collections.specialized.4.3.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/system.componentmodel.primitives/4.3.0/system.componentmodel.primitives.4.3.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/system.componentmodel.typeconverter/4.3.0/system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.diagnostics.diagnosticsource/4.7.0/system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.diagnostics.fileversioninfo/4.3.0/system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.diagnostics.stacktrace/4.3.0/system.diagnostics.stacktrace.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/system.diagnostics.tracesource/4.3.0/system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.dynamic.runtime/4.3.0/system.dynamic.runtime.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.globalization.calendars/4.3.0/system.globalization.calendars.4.3.0.nupkg.sha512",
+    "/Users/anilcan/.nuget/packages/system.globalization.extensions/4.3.0/system.globalization.extensions.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.identitymodel.tokens.jwt/6.5.0/system.identitymodel.tokens.jwt.6.5.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.io.compression/4.3.0/system.io.compression.4.3.0.nupkg.sha512",
@@ -179,46 +185,5 @@
     "/Users/anilcan/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
     "/Users/anilcan/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Castle.Core 1.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Castle.Core",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Castle.DynamicProxy 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Castle.DynamicProxy",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'log4net 1.2.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "log4net",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NLog 1.0.0.505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "NLog",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }
