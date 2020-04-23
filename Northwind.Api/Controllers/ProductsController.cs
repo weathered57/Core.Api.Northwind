@@ -10,6 +10,7 @@ using Northwind.EntitiesLayer.Concrete;
 namespace Northwind.Api.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class ProductsController : Controller
     {
         private IProductService _productService;
@@ -20,7 +21,7 @@ namespace Northwind.Api.Controllers
         }
         
         [HttpGet("GetAll")]
-       [Authorize(Roles="Admin")]
+       //[Authorize(Roles="Admin")]
         public IActionResult GetList()
         {
 
@@ -59,7 +60,6 @@ namespace Northwind.Api.Controllers
         [HttpPost("Add")]
         public IActionResult Add(Product product)
         {
-
             var result = _productService.Add(product);
             if (result.Success)
             {

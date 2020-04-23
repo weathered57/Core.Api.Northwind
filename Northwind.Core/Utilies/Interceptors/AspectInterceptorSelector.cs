@@ -1,20 +1,21 @@
 using System;
-using System.Reflection;
-using Castle.DynamicProxy;
 using System.Collections.Generic;
-using Northwind.Core.Utilies.Interceptors;
 using System.Linq;
+using System.Reflection;
+using System.Text;
+using Castle.DynamicProxy;
 namespace Northwind.Core.Utilies.Interceptors
 {
     public class AspectInterceptorSelector : IInterceptorSelector
     {
         public IInterceptor[] SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors)
         {
-            var classAttributes=type.GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
-            var methodAttribute=type.GetMethod(method.Name).GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
-        classAttributes.ToList().AddRange(methodAttribute);
+            var classAttributes=type.GetCustomAttributes<MethodInterceptionBaseAttribute>(true).ToList();
+            var methodAttributes=type.GetMethod(method.Name).GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
+        classAttributes.AddRange(methodAttributes);
 
-        return classAttributes.OrderBy(x=>x.Priotity).ToArray();
+        return classAttributes.OrderBy(x=>x.Priority).ToArray();
         }
     }
 }
+
