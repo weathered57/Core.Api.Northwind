@@ -47,6 +47,14 @@ namespace Northwind.BusinessLayer.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetList(x => x.CategoryId == categoryId));
         }
 
+        [TransactionScopeAspect]
+        public IResult TransactionalOperation(Product product)
+        {
+            _productDal.Add(product);
+            _productDal.Update(product);
+            return new SuccessResult(Messages.ProductUpdated);
+        }
+
         public IResult Update(Product product)
         {
             _productDal.Update(product);

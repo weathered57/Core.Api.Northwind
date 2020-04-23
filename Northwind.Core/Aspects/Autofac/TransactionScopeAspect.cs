@@ -20,7 +20,7 @@ namespace Northwind.Core.Aspects.Autofac
                 catch (System.Exception e)
                 {
                     transactionScope.Dispose();
-                    throw;
+                    throw(e);
                 }
             }
         }
