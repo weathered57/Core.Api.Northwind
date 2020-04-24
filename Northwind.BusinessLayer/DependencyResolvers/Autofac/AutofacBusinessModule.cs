@@ -22,10 +22,8 @@ namespace Northwind.BusinessLayer.DependencyResolvers.Autofac
             builder.RegisterType<ProductManager>().As<IProductService>();  
 
              builder.RegisterType<UserManager>().As<IUserService>();
-            builder.RegisterType<EfUserDal>().As<IUserDal>();   
-
-            builder.RegisterType<EfCategoryDal>().As<ICategoryDal>();
-            builder.RegisterType<CategoryManager>().As<ICategoryService>();       
+            builder.RegisterType<EfUserDal>().As<IUserDal>();  
+                
 
              builder.RegisterType<AuthManager>().As<IAuthService>();
              builder.RegisterType<JwtHelper>().As<ITokenHelper>();
