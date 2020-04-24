@@ -19,7 +19,10 @@ namespace Northwind.BusinessLayer.DependencyResolvers.Autofac
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<EfProductDal>().As<IProductDal>();
-            builder.RegisterType<ProductManager>().As<IProductService>();  
+            builder.RegisterType<ProductManager>().As<IProductService>(); 
+
+             builder.RegisterType<EfCategoryDal>().As<ICategoryDal>();
+            builder.RegisterType<CategoryManager>().As<ICategoryService>();  
 
              builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<EfUserDal>().As<IUserDal>();  
